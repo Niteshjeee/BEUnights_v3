@@ -1,0 +1,7 @@
+# File: .gitignore
+node_modules/
+.env
+private/*
+!private/.gitkeep
+*.log
+.DS_Store

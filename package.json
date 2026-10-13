@@ -1,0 +1,23 @@
+{
+  "name": "beunights-pyq-bot",
+  "version": "3.0.0",
+  "private": true,
+  "type": "module",
+  "main": "index.js",
+  "engines": {
+    "node": ">=20.12"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "check": "node --test tests/*.test.js",
+    "groups": "node scripts/find-groups.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "6.7.24",
+    "dotenv": "^16.4.5",
+    "mongoose": "^8.6.1",
+    "p-queue": "^8.0.1",
+    "pdfkit": "^0.15.0",
+    "pino": "^9.4.0"
+  }
+}
